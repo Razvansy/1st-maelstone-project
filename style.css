@@ -1,17 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body {
-    max-width: 100vw;
-    min-height: 100%;
     font-family: 'Montserrat',sans-serif;
     font-weight: 300;
 }
 
-.first {
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-}
+
 
 #heading {
     height: 250px;
@@ -109,6 +103,7 @@ hr {
     height: 600px;
     margin: 25px auto;
     padding: 0;
+    
 }
 
 .box2 ul {
@@ -134,5 +129,33 @@ i:hover {
     color: #02d0db;
 }
 
+.container {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+#music {
+    height: 100%;
+    width: 100%;
+    border-top: #02d0db;
+    border-bottom: #02d0db;
+    position: relative;
+    top: 700px;
+    background-color: rgb(199, 197, 197);
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: 2px 2px 4px 8px rgb(199, 197, 197);
+}
+
+.dj {
+   padding: 35px 25px;
+   width: 100%;
+   text-align: center;
+   margin: 0 auto;
+}
+
+.second {
+    padding: 0;
+}
 
 
