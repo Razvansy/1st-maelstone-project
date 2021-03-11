@@ -43,6 +43,12 @@ body {
      margin-bottom: 30px;
 }
 
+.jumbotron-p  {
+    color: #fff;
+    font-weight: bold;
+    
+}
+
 .btn {
     background-color: #ff0000;
     transition-duration: 0.4s;
@@ -110,6 +116,7 @@ i:hover {
     color: #ff0000;
 }
 
+/*
 #music {
     width: 100%;
     text-align: center;
@@ -145,6 +152,8 @@ i:hover {
 
     
 }
+
+*/
 
 
 
