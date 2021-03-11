@@ -1,61 +1,79 @@
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 body {
     font-family: 'Montserrat',sans-serif;
     font-weight: 300;
+    margin: 0 auto;
+    padding: 0;
+    
 }
 
+.navbar {
+    background-color: #a1ffff;
+    padding: 15px 0;
+    position: relative;
+    margin: 0 auto;
 
+}
+
+.nav-link {
+          font-weight: 800;    
+}
 
 #heading {
-    height: 250px;
     background-image: url(./images/2899.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 600px;
     width: 100%;
+    height: 600px;
     margin: 0 auto;
+    border-radius: 5px;
     position: relative;
-
 }
 
+#heading h1 {
+    margin: 0 auto;
+}
 .box {
     background-color: rgba(253, 253, 250, 0.2);
-    height: inherit;
+    background-size: cover;
+    background-position: center;
     text-align: center;
-    position: absolute;
     width: 100%;
+    height: 600px;
 }
 
 .box h1 {
     font-size: 100px;
     color: #02d0db;
     text-align: center;
-    margin: 0 auto;
-    padding: 200px 25px 0;
-    font-family: 'Bree Serif', serif;
     letter-spacing: 4px;
+    padding: 200px 0 20px;
+    margin: 0 auto;
     
 }
 
 .box h2 {
     font-size: 30px;
+    font-weight: 900;
     color: #02d0db;
     text-align: center;
-    margin: 0 auto;
-    padding: 15px 25px 15px;
-    font-family: 'Bree Serif', serif;
+    padding: 15px;
     letter-spacing: 4px;
+    margin: 0 auto;
+  
 }
 
 .button1 {
     background-color: rgba(136, 237, 242, 0.7);
     font-size: 20px;
+    font-weight: bold;
     border-radius: 4px;
     border: 1px solid #000;
-    padding: 5px 5px;
     transition-duration: 0.4s;
+    margin: 0 auto;
+
 }
 
 .button1:hover {
@@ -71,18 +89,14 @@ body {
     font-weight: bold;
 }
 
-.nav-link {
-          font-weight: 800;    
-}
 
 
 #event {
-    width: 100%;
-    height: 100px;
-    margin: 30px auto;
-    padding: 0;
-   
+   margin: 30px auto;
+   height: auto;
 }
+
+
 
 #event h2 {
     text-align: center;
@@ -90,8 +104,7 @@ body {
     padding: 15px 0;
     align-items: center;
     text-transform: uppercase;
-    font-family: 'Bree Serif', serif;
-    font-weight: 700;
+
 }
 #event hr {
     padding: 0 50px;
@@ -104,20 +117,19 @@ body {
 
 
 .box2 {
-    text-align: center;
     width: 80%;
     border: 1px solid #000;
     border-radius: 5px;
-    box-shadow: 0 5px 5px 2px #6b6e6e;
-    height: 600px;
+    box-shadow: 0 5px 5px 2px #02d0db ;
+    height: 500px;
     margin: 25px auto;
-    padding: 0;
+    position: relative;
     
 }
 
 .box2 ul {
-    margin: 0 auto;
-    padding: 70px 0;
+   text-align: center;
+   padding: 20px;
 }
 
 .box2 li {
@@ -125,13 +137,12 @@ body {
     font-size: 25px;
     width: 100%;
     height: 50px;
-    font-weight: bold;
+    margin: 15px auto;
 }
 
 i {
     transition: .2s;
     padding: 0 5px;
-    margin: 0 auto;
 }
 
 i:hover {
@@ -140,43 +151,43 @@ i:hover {
 }
 
 #music {
-    height: 100%;
     width: 100%;
-    border-top: #02d0db;
-    border-bottom: #02d0db;
-    position: relative;
-    top: 700px;
-    background-color: rgb(199, 197, 197);
     text-align: center;
     margin: 0 auto;
-    box-shadow: 2px 2px 4px 4px #ff0000;
+    background-color: #222222;
+    border-radius: 5px;
 }
 
-.dj {
-   padding: 35px 25px;
+.row-dj {
    width: 100%;
    text-align: center;
+   padding: 25px 0;
    margin: 0 auto;
 }
 
-.dj h2, p {
-    font-weight: bold;
+.row-dj h2, p {
     padding: 15px 0;
+    color: #02d0db;
+    margin: 0 auto;
 }
 
 #music hr {
     padding: 0 50px;
     width: 35%;
     border: 4px solid #ff0000;
-    margin: 100px auto;
+    margin: 40px auto;
 }
 
 .rounded-circle {
     border: 1px solid #ff0000;
     box-shadow: 0 4px 4px 0 #ff0000;
-    shadow;
+
     
 }
+
+
+
+
 
 
 
