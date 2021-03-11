@@ -3,7 +3,6 @@
 
 body {
     font-family: 'Montserrat',sans-serif;
-    background-image: url(./images/background5.jpg);
 }
 
 .navbar {
@@ -18,7 +17,7 @@ body {
 }
 .container-heading {
     height: 100vh;
-    background: url("./images/2899.jpg") no-repeat bottom right fixed;
+    background: url("./images/2899.jpg") no-repeat center  fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -62,49 +61,62 @@ body {
 
 /* --------------- Event */
 
+
 .container-event {
    display: flex;
    align-items: center;
    justify-content: center;
    width: 100%;
    text-align: center;
+   position: relative;
+   height: 100%;
+   background-image: url(./images/background5.jpg);
+   margin-bottom: 30px;
+   padding: 0;
 }
 
 
-#event h2 {
+.event-header  {
+    padding: 25px 0;
+    border-bottom: 0;
+    height: 100%;
     color: #fff;
-    text-transform: uppercase;
-    box-shadow: 0 4px 4px 0 #ff0000;
-    margin: 50px auto;
-    padding: 15px 0;
-    
-}
-
-
-.box2 {
-    width: 100%;
-    border: 1px solid #000;
-    border-radius: 5px;
-    box-shadow: 0 5px 5px 2px #ff0000 ;
-    height: 500px;
-    margin: 25px auto;
+    box-shadow: 0 4px 4px #ff0000;
+    width: 70%;
+    margin: 40px auto;
     position: relative;
-    }
-
-
-.box2 ul {
-   text-align: center;
-   padding: 20px;
+    text-transform: uppercase;
 }
 
-.box2 li {
-    list-style: none;
-    font-size: 25px;
+.event-box {
     width: 100%;
-    height: 50px;
-    margin: 15px auto;
-    color: #fff;
+    height: 100%;
+    margin: 25px auto;
+    text-align: center;
 }
+
+
+.event-box ul {
+    color: #fff;
+    list-style: none;
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+.event-box li {
+    padding: 20px 0;
+    font-size: 100%;
+    font-weight: bold;
+
+}
+
+.event-list {
+    margin: 0 auto;
+}
+
 
 i {
     transition: .2s;
@@ -116,44 +128,28 @@ i:hover {
     color: #ff0000;
 }
 
-/*
-#music {
+/* --------------- Music */
+
+.container-music {
     width: 100%;
+    height: 100%;
     text-align: center;
-    margin: 25px auto;
-    background-color: #5e5858c4;
-    border-radius: 5px;
-    box-shadow: 0 4px 4px 0 #ff0000;
-}
-
-.row-dj {
-   width: 100%;
-   text-align: center;
-   padding: 25px 0;
-   margin: 0 auto;
-}
-
-.row-dj h2, p {
-    padding: 15px 0;
-    color: #fff;
-    margin: 0 auto;
-}
-
-#music hr {
-    padding: 0 50px;
-    width: 35%;
-    border: 4px solid #ff0000;
-    margin: 40px auto;
 }
 
 .rounded-circle {
-    border: 1px solid #ff0000;
-    box-shadow: 0 4px 4px 0 #ff0000;
-
-    
+    box-shadow: 0 7px 7px #ff0000;
 }
 
-*/
+.music-header {
+    margin: 25px auto;
+}
+
+.player {
+    width: 50%;
+    height: 20%;
+    margin: 0 auto;
+}
+
 
 
 
