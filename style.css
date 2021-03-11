@@ -5,14 +5,18 @@ body {
     font-weight: 300;
     margin: 0 auto;
     padding: 0;
+    background-image: url(./images/background5.jpg);
+    background-position: center;
+
     
 }
 
 .navbar {
-    background-color: #a1ffff;
+    background-color: #ff0000;
     padding: 10px 15px;
-    position: relative;
     margin: 0 auto;
+    width: 100%;
+    opacity: 0.7;
 
 }
 
@@ -28,27 +32,30 @@ body {
     width: 100%;
     height: 600px;
     margin: 0 auto;
-    border-radius: 5px;
     position: relative;
     text-align: center;
-    color: #02d0db;
+    color: #fff;
+    border-radius: 4px;
 }
 
 #heading h1 {
-    font-size: 125px;
     margin: 0 auto;
     padding: 150px 0 15px;
+    width: 100%;
+    height: 300px;
+    font-size: 100px;
 }
 
 #heading h2 {
-    font-size: 50px;
     margin: 0 auto;
     padding: 50px 0;
+    width: 60%;
+    font-size: 50px;
 }
 
 
-.button1 {
-    background-color: rgba(136, 237, 242, 0.7);
+.btn {
+    background-color: #ff0000;
     font-size: 20px;
     font-weight: bold;
     border-radius: 4px;
@@ -58,9 +65,10 @@ body {
 
 }
 
-.button1:hover {
-    background-color: #02d0db;
+.btn:hover {
+    background-color: #fff;
     color: #000;
+    
 }
 .button2 {
     font-weight: bold;
@@ -76,6 +84,7 @@ body {
 #event {
    margin: 30px auto;
    height: auto;
+   color: #fff;
 }
 
 
@@ -91,9 +100,9 @@ body {
 #event hr {
     padding: 0 50px;
     width: 50%;
-    background-color: #00cccc;
-    border: 3px solid #00cccc;
+    border: 4px solid #fff;
     margin: 15px auto;
+    font-weight: bold;
     
 }
 
@@ -102,7 +111,7 @@ body {
     width: 80%;
     border: 1px solid #000;
     border-radius: 5px;
-    box-shadow: 0 5px 5px 2px #02d0db ;
+    box-shadow: 0 5px 5px 2px #ff0000 ;
     height: 500px;
     margin: 25px auto;
     position: relative;
@@ -135,9 +144,10 @@ i:hover {
 #music {
     width: 100%;
     text-align: center;
-    margin: 0 auto;
-    background-color: #222222;
+    margin: 25px auto;
+    background-color: #5e5858c4;
     border-radius: 5px;
+    box-shadow: 0 4px 4px 0 #ff0000;
 }
 
 .row-dj {
@@ -149,7 +159,7 @@ i:hover {
 
 .row-dj h2, p {
     padding: 15px 0;
-    color: #02d0db;
+    color: #fff;
     margin: 0 auto;
 }
 
@@ -170,6 +180,35 @@ i:hover {
 
 
 
+@media only screen and (max-width: 600px) {
 
+.navbar {
+    width: 0 auto;
+    padding: 10px 0 ;
+}
+
+#heading {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+
+#heading h1 {
+    margin: auto;
+    font-size: 35px;
+    padding: 400 0 0;
+    position: relative;
+}
+
+#heading h2 {
+    margin: 0 auto;
+    width: 60%;
+    font-size: 25px;
+    position: absolute;
+    left: 70px;
+    top: 150px;
+}
+   
+}
 
 
