@@ -10,7 +10,7 @@ body {
 
 .navbar {
     background-color: #a1ffff;
-    padding: 15px 0;
+    padding: 10px 15px;
     position: relative;
     margin: 0 auto;
 
@@ -30,40 +30,22 @@ body {
     margin: 0 auto;
     border-radius: 5px;
     position: relative;
+    text-align: center;
+    color: #02d0db;
 }
 
 #heading h1 {
+    font-size: 125px;
     margin: 0 auto;
-}
-.box {
-    background-color: rgba(253, 253, 250, 0.2);
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    width: 100%;
-    height: 600px;
+    padding: 150px 0 15px;
 }
 
-.box h1 {
-    font-size: 100px;
-    color: #02d0db;
-    text-align: center;
-    letter-spacing: 4px;
-    padding: 200px 0 20px;
+#heading h2 {
+    font-size: 50px;
     margin: 0 auto;
-    
+    padding: 50px 0;
 }
 
-.box h2 {
-    font-size: 30px;
-    font-weight: 900;
-    color: #02d0db;
-    text-align: center;
-    padding: 15px;
-    letter-spacing: 4px;
-    margin: 0 auto;
-  
-}
 
 .button1 {
     background-color: rgba(136, 237, 242, 0.7);
