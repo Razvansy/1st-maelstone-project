@@ -12,7 +12,7 @@ body {
     width: 100%;
     border: 0;
 
-/* --------------- Header */
+/* --------------------- Header */
 
 }
 .container-heading {
@@ -35,7 +35,7 @@ body {
 }
 
 
-/* ------------ Jumbotron */
+/* ---------------------- Jumbotron */
 
 
 .jumbotron-header {
@@ -61,7 +61,7 @@ body {
     color: #000;
 }
 
-/* --------------- Event */
+/* ------------------------- Event */
 
 
 #event {
@@ -130,7 +130,13 @@ i:hover {
     color: #ff0000;
 }
 
-/* --------------- Music */
+/* ----------------------------- Music */
+
+
+.container-music {
+    margin-right: 0;
+    margin-left: 0;
+}
 
 .container-music p {
     width: 80%;
@@ -165,7 +171,7 @@ hr {
 
 }
 
-/* --------------- Gallery */
+/* ------------------------- Gallery */
 
 
 #gallery {
@@ -188,9 +194,7 @@ hr {
     padding-bottom: 10px;
 }
 
-.container-fluid {
-    padding: 0;
-}
+
 
 
 
