@@ -72,7 +72,7 @@ body {
    position: relative;
    height: 100%py;
    background-image: url(./images/background5.jpg);
-   margin: 25px auto;
+   margin: 0 auto;
    padding: 0;
 }
 
@@ -132,22 +132,27 @@ i:hover {
 
 /* --------------- Music */
 
-.container-music {
-    width: 100%;
-    height: 100%;
+.container-music p {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+#music {
+    margin: 50px auto;
     text-align: center;
 }
 
+
 .rounded-circle {
     box-shadow: 0 7px 7px #ff0000;
+    margin-bottom: 30px;
 }
 
-.music-header {
-    margin: 25px auto;
-}
+
 
 .player {
-    width: 50%;
+    width: 70%;
     height: 20%;
     margin: 0 auto;
 }
@@ -164,13 +169,13 @@ hr {
 
 
 #gallery {
-    width: 100%;
+    width: 90%;
     height: 100%;
     text-align: center;
 }
 
 .gallery-heading {
-    margin: 15px auto;
+    margin: 50px auto;
     text-transform: uppercase;
     color: #000;
     box-shadow: 0 2px 2px 0 #ff0000;
@@ -179,7 +184,8 @@ hr {
 
 .galleryimage {
     height: 100%;
-    padding: 15px 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
 }
 
 .container-fluid {
