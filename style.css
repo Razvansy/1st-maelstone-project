@@ -6,15 +6,33 @@ body {
 }
 
 .navbar {
-    background-color: #ff0000d0;
+    background-color: #ff0000;
     padding: 10px 15px;
     margin-bottom: 0;
     width: 100%;
     border: 0;
+}
+
+.navbar i:hover {
+    color: #000;
+}
+
+.button2 {
+    color: #fff;
+}
+
+.button2:hover {
+       color: #000;
+}
+.nav-link {
+    color: #fff;
+}
+.nav-link:hover {
+    color: #000;
+}
+    
 
 /* --------------------- Header */
-
-}
 .container-heading {
     height: 100vh;
     background: url("./images/2899.jpg") no-repeat center  fixed;
@@ -26,14 +44,7 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
-   
 }
-
-.row>* {
-    padding-right: 0;
-    padding-left: 0;
-}
-
 
 /* ---------------------- Jumbotron */
 
@@ -87,7 +98,6 @@ body {
     margin: 50px auto;
     text-transform: uppercase;
     position: relative;
-
 }
 
 .event-box {
@@ -154,12 +164,13 @@ i:hover {
     margin: 0 auto;
 }
 
-hr {
+.container-music hr {
     width: 25%;
     color: #ff0000;
     border: 3px solid #ff0000;
-    margin: 40px auto;
+    margin: 30px auto;
     opacity: 1;
+
 
 }
 
@@ -167,23 +178,38 @@ hr {
 
 
 #gallery {
-    width: 90%;
+    width: 100%;
     height: 100%;
     text-align: center;
+    background-image: url(./images/background5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .gallery-heading {
-    margin: 50px auto;
+    padding: 25px 0;
+    border-bottom: 0;
+    letter-spacing: 10px;
+    color: #fff;
+    width: 70%;
+    margin: 25px auto;
     text-transform: uppercase;
-    color: #000;
-    box-shadow: 0 2px 2px 0 #ff0000;
-    width: 50%;
+    position: relative;
+}
+
+.gallery-heading  h2 {
+    padding: 25px 0;
+}
+
+.gallery-heading hr {
+    box-shadow: 2px 4px 4px 2px #ff0000;
+    opacity: 1;
+    color: #ff0000;
 }
 
 .galleryimage {
     height: 100%;
-    padding-left: 15px;
-    padding-bottom: 10px;
+    padding: 15px 15px;
 }
 
 /* ------------------------- Tickets */
@@ -214,6 +240,7 @@ hr {
     width: 30%;
     height: 100%;
 }
+
 
 
 
