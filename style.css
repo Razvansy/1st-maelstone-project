@@ -190,11 +190,6 @@ body {
     margin: 0 auto;
 }
 
-.dj-box p {
-    width: 80%;
-    padding: 15px 0;
-}
-
 .rounded-circle {
     box-shadow: 0 7px 7px #ff0000;
     margin-bottom: 30px;
@@ -401,10 +396,32 @@ body {
 
 
 
-@media screen and (width: 1024px) {
+@media screen and (min-width: 960px) {
     .dj-box {
+        width: 50%;
+        margin: 0 auto;
+
+    }
+
+
+
+    .galleryimage {
+        width: 50%;
+        display: inline;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .galleryimage img {
+        width: 100%;
+    }
+
+    .gallery-box {
         width: 100%;
         height: 100%;
+        display: flex;
+        margin: 0 auto;
+        
     }
 }
 
