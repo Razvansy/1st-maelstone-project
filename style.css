@@ -7,64 +7,94 @@ body {
 
 .navbar {
     background-color: #ff0000;
-    padding: 10px 15px;
-    margin-bottom: 0;
+    padding: 10px 10px;
+    margin: 0 auto;
     width: 100%;
     border: 0;
-}
-
-.navbar i:hover {
-    color: #000;
-}
-
-.button2 {
+    position: fixed;
     color: #fff;
 }
 
-.button2:hover {
-       color: #000;
-}
-.nav-link {
+.navbar-nav {
+    text-align: center;
     color: #fff;
 }
-.nav-link:hover {
+
+.navbar-nav li {
+    padding: 0 15px;
+}
+
+.navbtn1 {
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+}
+
+.navbtn {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    float: left;
+    padding-left: 15px;
+}
+
+.navbar-nav a:hover {
     color: #000;
 }
+
+
+.navbar a:hover {
+    color: #000;
+}
+
+
     
 
 /* --------------------- Header */
-.container-heading {
+
+#home {
     height: 100vh;
-    background: url("./images/2899.jpg") no-repeat center  fixed;
+    width: 100%;
+    background: url(./images/2899.jpg) no-repeat center  fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
 }
 
-/* ---------------------- Jumbotron */
-
-
-.jumbotron-header {
-     color: #fff;
-     font-weight: bold;
-     margin-bottom: 30px;
-}
-
-.jumbotron-p  {
+.container-heading {
+    width: 90%;
+    height: 200px;
+    text-align: center;
+    margin: 50px auto;
     color: #fff;
-    font-weight: bold;
+    padding-top: 200px;
+}
+
+.header {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
     
+}
+
+.container-heading h1 {
+    width: 100%;
+    height: 100%;
+    font-size: 2.5rem;
+    padding-bottom: 50px;
+}
+
+.container-heading p {
+    width: 100%;
+    height: 100%;
+    font-size: 1rem;
 }
 
 .btn {
     background-color: #ff0000;
     transition-duration: 0.4s;
-    margin-top: 10px;
+    margin: 25px auto;
     border: none;
 }
 
@@ -82,7 +112,7 @@ body {
    justify-content: center;
    width: 100%;
    position: relative;
-   height: 100%py;
+   height: 100%;
    background-image: url(./images/background5.jpg);
    margin: 0 auto;
    padding: 0;
@@ -90,14 +120,19 @@ body {
 
 
 .event-header  {
-    padding: 10px 0;
     border-bottom: 0;
     color: #fff;
     box-shadow: 0 4px 4px #ff0000;
     width: 70%;
-    margin: 50px auto;
+    margin: 0 auto;
     text-transform: uppercase;
     position: relative;
+}
+
+.event-header h2 {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
 }
 
 .event-box {
@@ -115,6 +150,8 @@ body {
     text-align: center;
     margin:  50px auto;
     padding: 0;
+    text-transform: uppercase;
+    font-size: 1rem;
 
 }
 
@@ -131,12 +168,12 @@ body {
 }
 
 
-i {
+.event-list i {
     transition: .2s;
     padding: 0 5px;
 }
 
-i:hover {
+.event-list i:hover {
     transform: scale(1.5);
     color: #ff0000;
 }
@@ -189,32 +226,43 @@ i:hover {
     background-image: url(./images/background5.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    margin: 0 auto;
 }
 
 .gallery-heading {
-    padding: 25px 0;
     border-bottom: 0;
     letter-spacing: 10px;
+    padding-top: 25px;
     color: #fff;
     width: 70%;
     margin: 25px auto;
     text-transform: uppercase;
-    position: relative;
 }
 
 .gallery-heading  h2 {
     padding: 25px 0;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
 }
 
 .gallery-heading hr {
-    box-shadow: 2px 4px 4px 2px #ff0000;
+    margin: 0 auto;
+    padding: 0;
+    height: 5px;
     opacity: 1;
     color: #ff0000;
 }
-
 .galleryimage {
+    width: 100%;
     height: 100%;
     padding: 15px 15px;
+    margin: 0 auto;
+}
+
+.galleryimage img {
+    width: 90%;
+   
 }
 
 /* ------------------------- Tickets */
@@ -222,29 +270,135 @@ i:hover {
 #tickets {
     width: 100%;
     height: 100%;
+    margin: 0 auto;
+    background-image: url(./images/ticketsbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 25px 0;
+}
+
+.heading-box {
+    margin: 0 auto;
+    width: 70%;
+    height: 100%;
+    color: #fff;
+    padding: 15px 0;
+    border-bottom: 2px solid white;
+    text-transform: uppercase;
     text-align: center;
 }
 
-.tickets-heading {
-    margin: 30px auto;
-    width: 80%;
-    height: 100px;
-    border-bottom: 1px solid #ff0000;
-    padding: 25px 0;
-   
-}
 .tickets-box {
-    margin: 0 auto;
     width: 100%;
     height: 100%;
-   
+    margin: 35px auto;
+    position: relative;
+    display: inline;
+}
+
+
+.days {
+    margin: 10px auto;
 }
 
 .ticket {
-    margin: 0 auto;
-    width: 30%;
+    margin: 25px auto;
+    width: 90%;
     height: 100%;
+    text-align: center;
+    border: 2px solid #ff0000;
+    border-radius: 10px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.795);
 }
+
+.ticket li {
+    list-style: none;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.ticket ul {
+    color: #fff;
+    list-style: none;
+    height: 100%;
+    text-align: center;
+    margin:  20px auto;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.ticketbtn {
+    margin: 10px auto;
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    padding: 5px;
+}
+
+.ticket-hr {
+    width: 25%;
+    color: #fff;
+    opacity: 1;
+    height: 10px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* ------------------------- About Us */
+
+#aboutus {
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.aboutus-heading {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+    padding: 25px 0;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutus-heading i {
+    color: #ff0000;
+    padding-top: 10px;
+
+}
+
+.aboutus-heading hr {
+    width: 30px;
+    color: #ff0000;
+    height: 5px;
+    opacity: 1;
+    padding: 0 20px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+.aboutus-pbox {
+    width: 90%;
+    margin: 0 auto;
+    text-indent: 20px;
+    text-align: center;
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px 0 #ff0000;
+
+}
+
+.aboutus-pbox p{
+    padding: 15px 0;
+}
+
 
 
 @media screen and (width: 1024px) {
