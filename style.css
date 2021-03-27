@@ -66,8 +66,9 @@ body {
     width: 100%;
     height: 300px;
     text-align: center;
-    margin: 150px auto;
+    margin: 0 auto;
     color: #fff;
+    padding-top: 150px;
 }
 
 .header-box {
@@ -82,12 +83,13 @@ body {
     height: 50px;
     font-size: 2.5rem;
     margin: 0 auto;
+    letter-spacing: 3px;
 }
 
 .container-heading p {
     width: 100%;
     height: 50px;
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin: auto;
 }
 
@@ -101,6 +103,7 @@ body {
 .btn:hover {
     background-color: #fff;
     color: #000;
+    border: 1px solid #000;
 }
 
 /* ------------------------- Event */
@@ -248,17 +251,22 @@ body {
     opacity: 1;
     color: #ff0000;
 }
-.galleryimage {
+.gallery-box {
     width: 100%;
     height: 100%;
-    padding: 15px 15px;
     margin: 0 auto;
 }
 
-.galleryimage img {
-    width: 90%;
-   
+.galleryimage {
+    margin: 0 auto;
+    padding: 15px 15px;
 }
+
+.galleryimage img {
+    width: 100%;
+}
+
+
 
 /* ------------------------- Tickets */
 
@@ -288,8 +296,7 @@ body {
     width: 100%;
     height: 100%;
     margin: 35px auto;
-    position: relative;
-    display: inline;
+
 }
 
 
@@ -346,7 +353,7 @@ body {
 
 #aboutus {
     width: 100%;
-    height: 500px;
+    height: 100%;
     margin: 0 auto;
 }
 
@@ -367,7 +374,7 @@ body {
 
 .aboutus-pbox {
     width: 90%;
-    margin: 0 auto;
+    margin: 25px auto;
     text-indent: 20px;
     text-align: center;
     border: 2px solid #ff0000;
@@ -376,30 +383,125 @@ body {
 
 }
 
-.aboutus-pbox p{
+.aboutus-pbox p {
     padding: 15px 0;
 }
 
+/* --------------------- Footer */
+
+.footer-container {
+    width: 100%;
+    margin: 0 auto;
+    padding-right: 0;
+    padding-left: 0;
+    height: 100%;
+    background-color: #ff0000;
+}
+.footer-content {
+    margin: 0 auto;
+    text-align: center;
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #000;
+}
+
+.footer-box {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+}
+
+.text-area {
+    background-color: #000;
+    color: #fff;
+    height: 40px;
+}
+
+.placeholder {
+    color: #fff;
+}
+
+.footer-btn {
+    margin: 10px auto;
+    background-color: #000;
+    color: #fff;
+    font-family: sans-serif;
+    height: 40px;
+    padding: 0 4px;
+}
+
+.socials ul {
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.socials li {
+    margin: 15px auto;
+    padding: 0 20px; 
+}
+
+.socials i {
+    color: black;
+}
+
+.socials i:hover {
+    color: #fff;
+}
 
 
 @media screen and (min-width: 960px) {
+    .container-heading {
+        width: 100%;
+        height: 300px;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 450px;
+        color: #fff;
+    }
+
+    .container-heading h1 {
+        width: 100%;
+        height: 50px;
+        font-size: 3.5rem;
+        margin: 0 auto;
+        letter-spacing: 5px;
+    }
+
+    .container-heading p {
+        font-size: 2.5rem;
+        margin: 25px auto;
+    }
+
+    .btn {
+        width: 20%;
+        height: 40px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: bold;
+        border: 1px solid #fff;
+    }
+
+
     .dj-box {
         width: 50%;
         margin: 0 auto;
 
     }
 
-
-
     .galleryimage {
-        width: 50%;
-        display: inline;
-        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
         justify-content: center;
-    }
-
-    .galleryimage img {
-        width: 100%;
     }
 
     .gallery-box {
@@ -407,8 +509,16 @@ body {
         height: 100%;
         display: flex;
         margin: 0 auto;
-        
     }
+
+    .tickets-box {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+
+
+
 }
 
 
