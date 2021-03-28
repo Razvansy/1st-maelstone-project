@@ -4,7 +4,7 @@
 
 This is the main marketing website for Tomorrowland Festival. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential clients and new users.
 
-<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
+<h2 align="center"><img src="./images/mockup.jpg"></h2>
 
 ## User Experience (UX)
 
