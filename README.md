@@ -117,6 +117,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ht
 -   The Website was tested on Google Chrome, Microsoft Edge and Mozilla Firefox.
 -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 7 Plus, Huawei P20 Pro, Samsung Galaxy A8.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+    <h3><img src="./images/lighthouse.jpg"></h3>
 
 ### Known Bugs
 
